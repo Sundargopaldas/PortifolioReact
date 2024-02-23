@@ -6,6 +6,7 @@ import imgEsZ from '/src/assets/img/Essenzialle.png'
 
 export default function Trabalhos() {
   return (
+    <section id= "trabalhos">
     <div className='container-fluid'>
       <div className='row'>
         <div className='col-12'>
@@ -46,8 +47,8 @@ export default function Trabalhos() {
 
       </div>
     </div>
-
-
+      <br /><br /><br /><br /><br /><br /><br /><br />
+    </section>
 
 
     

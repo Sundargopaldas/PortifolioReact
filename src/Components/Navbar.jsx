@@ -2,11 +2,11 @@
 import imgLogo from '/src/assets/img/SPENCER.png'
 export default function Navbar() {
   return (
-       
+      <section id='home'>
      <div className='container-fluid'>
     <div className='row'>
     <div className='col-12'>
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark " aria-label="Offcanvas navbar large">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top " aria-label="Offcanvas navbar large">
     <div className="container-fluid">
       <div className='imgLogo'>
       <img src={imgLogo}/>
@@ -21,10 +21,10 @@ export default function Navbar() {
         <div className="offcanvas-body">
           <ul className="navbar-nav justify-content-center flex-grow-1 pe-3">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">Home</a>
+              <a className="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">Trabalhos</a>
+              <a className="nav-link active" aria-current="page" href="#trabalhos">Trabalhos</a>
             </li>
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">Contato</a>
@@ -37,5 +37,6 @@ export default function Navbar() {
     </div>
     </div>
   </div> 
+  </section> 
   ) 
 }

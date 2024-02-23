@@ -1,5 +1,5 @@
 import React from 'react'
-import img from  '/src/assets/img/Spencer-sobre-100.jpg'
+import imgSobre from  '/src/assets/img/Sobre-100.jpg'
 
 export default function Sobre() {
   return (
@@ -8,12 +8,12 @@ export default function Sobre() {
     <div className='row'>
     <div className='col-12'>
         <div className='imgSobre img-fluid'>
-      <img src={img}/>
+      <img src={imgSobre}/>
       </div>
   
   </div>
   </div>
-  </div>
+  </div> 
   
   
   
