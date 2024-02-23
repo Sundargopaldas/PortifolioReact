@@ -1,0 +1,11 @@
+
+
+*{
+
+box-sizing: border-box;
+}
+
+.imgLogo img{
+    width: 50px;
+    margin-left: 30px;
+}
