@@ -15,7 +15,7 @@ Aos.init({})
     <div className='container-fluid'>
     <div className='row'>
     <div className='col'>
-      <div className='bannerHome object-contain img-fluid'>
+      <div className='bannerHome'>
    <img  src={BanerHome} alt=""></img>
 </div>
    <Sobre/>

@@ -3,7 +3,9 @@ export default function Navbar(){
 
     return(
 
-     
+     <div className="container-fluid">
+     <div className="row">
+     <div className="col-sm">
 <nav className="navbar navbar-expand-lg  ">
   <div className="container-fluid">
     <a className="navbar-brand" href="#">
@@ -32,7 +34,9 @@ export default function Navbar(){
 </nav>
 
 
-
+</div>
+</div>
+</div>
 
 
 

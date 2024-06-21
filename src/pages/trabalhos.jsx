@@ -17,6 +17,10 @@ import  Img12 from '/img/Reflexões.jpg'
 import  Img13 from '/img/rena.jpg'
 import  Img14 from '/img/shock.jpg'
 import  Img15 from '/img/Lotus Estilizada.jpg'
+import  imgQuarentena from '/img/Quarentena.png'
+import  imgEssenziale from '/img/essenziale.png'
+import  imgCorposCelestes from '/img/corposCelestes.png'
+
 
 export default function Trabalhos() {
 useEffect(()=>{
@@ -24,8 +28,9 @@ useEffect(()=>{
 Aos.init({})
 }),[]
 
+  
   return (
-
+      <div>
      <div className="container">
      <div className="row">
      <div className="col-sm col-md">
@@ -37,7 +42,7 @@ Aos.init({})
   <div className="row align-items-start">
     <div className="col m-4">
       <div className='imagem' data-aos='flip-right'>
-      <img src={Img} alt='img'></img>
+      <img  src={Img} alt='img'></img>
       </div>
     </div>
     <div className="col mt-4">
@@ -119,21 +124,43 @@ Aos.init({})
       </div>
     </div>
   </div>
-
-
-
-
-
-
-
-
-
-</div>
-
 </div>
 </div>
+</div>
+<div className="container">
+     <div className="row">
+     <div className="col-sm col-md">
+
+<h3 className="works-text d-flex justify-content-center"> PROJETOS DE SITES DESENVOLVIDOS</h3>
+
+
+<div className="container text-center">
+  <div className="row align-items-start">
+    <div className="col ">
+      <div className='sites mt-4' data-aos='fade-up'>
+      <img src={imgQuarentena} alt='img'></img>
+      </div>
+    </div>
+    <div className="col ">
+      <div className='sites mt-4' data-aos='fade-up'>
+      <img src={imgEssenziale} alt='img'></img>
+      </div>
+    </div>
+    <div className="col">
+      <div className='sites mt-4' data-aos='fade-up'>
+      <img src={imgCorposCelestes} alt='img'></img>
+      </div>
+    </div>
 
 
 
+
+     </div>
+     </div>
+     </div>
+
+</div>
+</div>
+</div>
  )
 }
