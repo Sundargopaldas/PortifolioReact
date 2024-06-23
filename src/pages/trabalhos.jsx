@@ -1,3 +1,4 @@
+
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
@@ -22,13 +23,15 @@ import  imgEssenziale from '/img/essenziale.png'
 import  imgCorposCelestes from '/img/corposCelestes.png'
 
 
+
 export default function Trabalhos() {
+ 
+  
 useEffect(()=>{
 
 Aos.init({})
 }),[]
 
-  
   return (
       <div>
      <div className="container">
