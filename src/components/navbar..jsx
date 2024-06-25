@@ -6,7 +6,7 @@ export default function Navbar(){
      <div className="container-fluid">
      <div className="row">
      <div className="col-sm">
-<nav className="navbar navbar-expand-lg  ">
+<nav className="navbar  navbar-expand-lg bg-info ">
   <div className="container-fluid">
     <a className="navbar-brand" href="#">
      <img className="logo" src="/img/logo-spencer-8.png" alt="logo" width="60" ></img>

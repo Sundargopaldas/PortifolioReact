@@ -5,6 +5,7 @@ import Trabalhos from './trabalhos'
 import '../styles/home.css'
 import BanerHome from '/img/home banner-100.jpg'
 import Sobre from './sobre'
+import Contato from './contato'
 export default function Home() {
 useEffect(()=>{
 
@@ -20,6 +21,8 @@ Aos.init({})
 </div>
    <Sobre/>
    <Trabalhos/>
+   <Contato/>
+
    
     </div>
     </div>
