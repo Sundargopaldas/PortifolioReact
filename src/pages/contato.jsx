@@ -3,10 +3,10 @@ import BanerContato from '/img/banner-Contato-100.jpg'
 export default function Contato() {
   return (
     
-<div className='container-fluid mt-5'>
+<div className='container-fluid'>
     <div className='row'>
-    <div className='col-sm col-md '>
-      <div className='banerSobre  img-fluid'>
+    <div className='col '>
+      <div className='banerSobre'>
    <img  src={BanerContato} alt=""></img>
 </div>
 </div>

@@ -4,10 +4,22 @@ body{
 }
 .bannerHome img{
     width: 100%;
+    
+    
 
     
     
 }
+@media (max-width:450px) {
+    .bannerHome{
+width: 100%;
+
+    }
+    
+    
+}
+
+    
 
 
     
