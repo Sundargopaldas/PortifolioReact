@@ -22,6 +22,7 @@ Aos.init({})
    <Sobre/>
    <Trabalhos/>
    <Contato/>
+   
 
    
     </div>

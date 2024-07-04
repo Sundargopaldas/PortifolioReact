@@ -1,0 +1,38 @@
+
+body{
+    height: 100%;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(19, 19, 19);
+    margin-top: 20px;
+    font-weight: bold;
+    
+    
+}
+.text-footer{
+    margin-top: 20px;
+}
+
+    
+.logoSpencer img{
+ width: 90px;
+ margin-left: -200px;
+}
+@media(max-width:450px) {
+    .text-footer{
+        height: 100px;
+    }
+    .logoSpencer img{
+      width: 60px;
+      margin-left: -20px;
+    }
+    .footer{
+        height: 90px;
+        margin-top: 50px;
+    }
+}

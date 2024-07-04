@@ -5,7 +5,7 @@ export default function Navbar(){
 
      <div className="container-fluid">
      <div className="row">
-     <div className="col-sm">
+     <div className="col">
 <nav className="navbar  navbar-expand-lg bg-info ">
   <div className="container-fluid">
     <a className="navbar-brand" href="#">
