@@ -3,21 +3,23 @@ body{
     height: 100%;
 }
 .bannerHome img{
-    width: 100%;
-    
-    
-
-    
-    
+    width: 100%;    
 }
+.banerMobili{
+    display: none;
+}
+
+
+
 @media (max-width:450px) {
     .bannerHome{
 width: 100%;
-
+margin-top: 90px;
     }
+
+}    
     
-    
-}
+
 
     
 

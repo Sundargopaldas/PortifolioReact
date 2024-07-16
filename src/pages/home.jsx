@@ -4,8 +4,8 @@ import { useEffect } from 'react'
 import Trabalhos from './trabalhos'
 import '../styles/home.css'
 import BanerHome from '/img/home banner-100.jpg'
-import Sobre from './sobre'
 import Contato from './contato'
+import Sobre from './sobre'
 export default function Home() {
 useEffect(()=>{
 

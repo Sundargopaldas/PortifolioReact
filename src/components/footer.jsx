@@ -4,7 +4,7 @@ export default function Footer(){
 
     return(
         
-        <div className="footer bg-info">
+        <div className="footer bg-light">
             <div className='logoSpencer'>
             <img src={logo} alt="logoSpencer" />
             </div>

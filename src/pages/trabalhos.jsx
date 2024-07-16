@@ -33,10 +33,10 @@ Aos.init({})
 }),[]
 
   return (
-      <div>
+      <section className='trabalhos'>
      <div className="container">
-     <div className="row">
-     <div className="col-sm col-md">
+     <div className="row mt-5">
+     <div className="col-sm col-md mt-3">
 
      <h3 className="works-text d-flex justify-content-center">ALGUNS TRABALHOS DE DESIGN ARTISTICO</h3>
      </div>
@@ -134,7 +134,7 @@ Aos.init({})
      <div className="row">
      <div className="col-sm col-md">
 
-<h3 className="works-text d-flex justify-content-center"> PROJETOS DE SITES DESENVOLVIDOS</h3>
+<h3 className="works-text-projetos d-flex justify-content-center"> PROJETOS DE SITES DESENVOLVIDOS</h3>
 
 
 <div className="container text-center">
@@ -164,6 +164,6 @@ Aos.init({})
 
 </div>
 </div>
-</div>
+</section>
  )
 }
